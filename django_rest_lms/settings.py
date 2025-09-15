@@ -37,7 +37,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'drf_lrn.urls'
+ROOT_URLCONF = 'django_rest_lms.urls'
 
 TEMPLATES = [
     {
@@ -54,7 +54,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'drf_lrn.wsgi.application'
+WSGI_APPLICATION = 'django_rest_lms.wsgi.application'
 
 
 # Database
